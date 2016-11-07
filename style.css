@@ -1,0 +1,207 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif,Arial,Verdana,Helvetica;
+    font-size: 83%;
+    line-height: 125%;
+    color: #535353;
+}
+.container{
+    min-width: 1040px;
+}
+
+/*Хідер*/
+
+.header-back{
+    height: 42px;
+}
+.header{
+    height: 42px;
+    min-width: 990px;
+    margin: 0 auto;
+}
+.shadow{
+    -webkit-box-shadow:0 0 25px 10px rgba(185, 190, 196, 0.9);
+    -moz-box-shadow:0 0 25px 10px rgba(185, 190, 196, 0.9);
+    box-shadow:0 0 25px 10px rgba(185, 190, 196, 0.9);
+}
+.h-gradient{
+     background: #D3D8E1;
+     background: linear-gradient(to top, #D3D8E1, #DEE1E7);
+ }
+
+/*Основний блок*/
+
+.content{
+    width: 82.72794662713121%;
+    min-width: 990px;
+    margin: -42px auto;
+    background: url("img/_sidebarimg.png") 99% 99% no-repeat;
+}
+
+/*Головне меню*/
+
+.main-menu{
+    width: 182px;
+    margin: 21px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    float: left;
+}
+.m-gradient{
+    background: #E1E4EA;
+    background: linear-gradient(to top, #E1E4EA, #ffffff);
+}
+.icon{
+    position: absolute;
+    margin: -10px 0 0 -13px;
+}
+
+.m-list{
+    list-style-image: url(img/menu-collapsed.png);
+    padding: 0.2em 0.5em 0 0;
+}
+.o-list{
+    list-style-image: url(img/menu-expanded.png);
+}
+.s-list{
+    list-style-image:url(img/menu-leaf.png);
+    padding: 0.2em 0 0 0;
+}
+li a {
+    color: #2f71a2;
+    text-decoration: none;
+}
+li a:hover{
+    text-decoration: underline;
+}
+.chosen{
+    background: url("img/check.png") no-repeat right center;
+    padding-right:20px;
+    color: #000;
+}
+.menu-list{
+    padding:6px 18px 15px 31px;
+    margin: 0;
+}
+.sub-menu{
+    padding-left: 19px;
+    padding-bottom:3px;
+}
+
+/*Фікс*/
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+/*Стаття*/
+
+h2, h1 {
+    color: #2f71a2;
+    font-weight: bold;
+}
+h2{
+    text-align: right;
+    font-size: 125%;
+    padding: 7px 7px 6px 28px;
+    margin: 0.25em 0.25em .25em 0.85em;
+}
+h1{
+    font-size: 160%;
+    margin: 15px 0 17px 0;
+    padding: 0;
+}
+.post{
+    margin-left: 205px;
+    margin-right: 278px;
+    padding-bottom:50px;
+}
+.post p{
+    padding: 0 19px;
+    margin: 0;
+}
+.main-img{
+    margin-bottom:6px;
+}
+.br{
+    padding: 6px 0;
+}
+
+/*Правий сайдбар*/
+
+.right-bar{
+    float: right;
+    width: 260px;
+    padding: 0;
+    margin: 21px;
+}
+
+.p-posts{
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-left: 2px;
+    background: linear-gradient(to top, #DDDDDD, #F3F5F7);
+}
+.p-posts ul{
+    list-style-type: none;
+    padding-left: 11px;
+    margin: 10px 0;
+}
+.weather{
+    background: linear-gradient(to top, #DDDDDD, #ffffff);
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin: 16px 0 0 2px;
+    padding-bottom:11px;
+}
+.weather b {
+    font-weight: bold;
+    margin:17px 11px 12px 11px;
+    display: block;
+}
+.w-icon{
+    margin: 0 auto;
+    width: 64px;
+    height: 64px;
+}
+.weather ul{
+    padding: 0;
+    margin:4px 11px 3px 25px;
+}
+small p{
+    margin: 0 11px;
+}
+
+/*Футер*/
+
+.footer{
+    height: 112px;
+    background: #fff;
+    margin-top:40px;
+    border-top:1px solid #ddd;
+}
+.copyright{
+    text-align: center;
+    font-size: x-small;
+}
+.brand{
+    background: url(img/_brand.png);
+    width: 50px;
+    height: 50px;
+    margin: -5px auto;
+}
